@@ -3,33 +3,31 @@
         background-color: #f5f5f5;        
         border-radius: 4px;
         border-color: #ddd;
+        cursor: pointer;
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 20px;
         font-weight: bold;
-        line-height: 1.42857143;
         margin-bottom: 4px;        
         padding: 10px 15px;
         text-align: center;
-                -webkit-transition: width 2s; /* Safari */
-        transition: width 2s;
     }
     .Accordion-body {
-        background-color: blue;
+        background-color: #ffffff;
         display: block;
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;        
-        margin: 0;        
-        margin-top: 0px;
+        height: 100px;
+        margin: 0px;
         margin-bottom: 4px;
-        min-height: 100px;        
+        overflow: hidden;        
         text-align: center;
-        -webkit-transition: width 2s; /* Safari */
-        transition: width 2s;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
         p {
             margin: 0;
             padding-top: 18px;
         }
         &.Accordion-body--is-collapsed {
-            display: none;
+            height: 0px;
         }
     }
 }
