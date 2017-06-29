@@ -68,17 +68,49 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(1);
-module.exports = __webpack_require__(2);
+module.exports = __webpack_require__(3);
 
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-console.log('hello world - 3');
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AccordionSMG__ = __webpack_require__(2);
+
+
+/**
+ * We create our instance of accordion object passing the id of the group of 'titles' that will handle our actions
+ * this will give to us the flexibility to have more than one accordion group
+ */
+const mainAccordion = new __WEBPACK_IMPORTED_MODULE_0__AccordionSMG__["a" /* default */]('Accordion-1');
 
 /***/ }),
 /* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+class AccordionSMG {
+    constructor(handler) {
+        this.handlerContainer = document.getElementById(handler);
+        this.handlerElements = this.handlerContainer.getElementsByClassName('Accordion-handler')
+        this.atachOnClickToHandlerElements();
+    }
+
+    atachOnClickToHandlerElements() {
+        this.handlerElements.forEach(element => {
+            element.classList.toggle('Accordion-handler--active');
+            const accordionBody = element.nextElementSibling;
+            accordionBody.classList.toggle('Accordion-body--is-collapsed'); 
+        });
+    }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = AccordionSMG;
+
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

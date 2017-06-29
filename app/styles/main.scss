@@ -1,5 +1,5 @@
-.Accordion {
-    .Accordion-title {
+.Accordion {   
+    .Accordion-handler {
         background-color: #f5f5f5;        
         border-radius: 4px;
         border-color: #ddd;
@@ -10,8 +10,24 @@
         margin-bottom: 4px;        
         padding: 10px 15px;
         text-align: center;
+                -webkit-transition: width 2s; /* Safari */
+        transition: width 2s;
     }
     .Accordion-body {
+        background-color: blue;
+        display: block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;        
+        margin: 0;        
+        margin-top: 0px;
+        margin-bottom: 4px;
+        min-height: 100px;        
+        text-align: center;
+        -webkit-transition: width 2s; /* Safari */
+        transition: width 2s;
+        p {
+            margin: 0;
+            padding-top: 18px;
+        }
         &.Accordion-body--is-collapsed {
             display: none;
         }
