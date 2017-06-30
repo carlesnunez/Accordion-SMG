@@ -1,6 +1,6 @@
-# LIBRARY EXAMPLE (https://carlesnunez.github.io/Accordion-SMG/)[HERE]
+# LIBRARY EXAMPLE [HERE](https://carlesnunez.github.io/Accordion-SMG/)
 
-# CODE COVERAGE OF THE LIBRARY (https://carlesnunez.github.io/Accordion-SMG/coverage/lcov-report/index.html)[HERE]
+# CODE COVERAGE OF THE LIBRARY [HERE](https://carlesnunez.github.io/Accordion-SMG/coverage/lcov-report/index.html)
 
 # Accordion-SMG
 A simple vanillaJS based accordion library
