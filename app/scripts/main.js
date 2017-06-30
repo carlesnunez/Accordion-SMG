@@ -18,6 +18,7 @@ mainAccordion.accordionElements[3].addEventListener('click', (event) => {
         const xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = () => {
             //If request is OK
+            console.log(this.readyState, this.status);
             if (this.readyState == 4 && this.status == 200) {
                 event.target.nextElementSibling.innerHTML = this.responseText;
             } else {
