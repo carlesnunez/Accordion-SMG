@@ -30,7 +30,7 @@ The id could be whatever you want but the handler and body clases must be as fol
 
 ## AccordionSMG functions:
 
-*atachOnClickToAccordionElements():*
+**atachOnClickToAccordionElements():**
 
 This function is the responsable to get the accordion element handlers and attach to them the actions to perform on a user click.
 Use it in order to update your accordion click handlers, for example on hot accordion elements appear in the menu.
@@ -39,11 +39,11 @@ Use it in order to update your accordion click handlers, for example on hot acco
 
 This function will trigger a single accordion given an index. The index must be the number of the desired accordion to be trigged counting from 0
 
-*openAllAccordions():*
+**openAllAccordions():**
 
 Will dispatch all the accordions opening them
 
 
-*closeAllAccordions():*
+**closeAllAccordions():**
 
 Will dispatch all the accordions closing them
