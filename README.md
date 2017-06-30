@@ -5,6 +5,24 @@
 # Accordion-SMG
 A simple vanillaJS based accordion library
 
+## How to install
+
+Run this three commands:
+```ssh
+npm install
+
+webpack
+
+webpack-dev-server
+```
+
+After that connect to http://localhost:8080
+
+## How to run tests?
+
+```ssh
+npm test
+```
 ## How does it works?
 
 - STEP 1 To generate your accordion menu you need to have an HTML structure like this:
