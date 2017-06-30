@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1498852832758" clover="3.2.0">
+  <project timestamp="1498852832758" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="24" coveredelements="24" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1">
+      <file name="AccordionSMG.js" path="/Users/carles.nunez/Documents/git/OtherProjects/AccordionMenu/app/scripts/AccordionSMG.js">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="15" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
