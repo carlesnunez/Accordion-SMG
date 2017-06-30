@@ -96,8 +96,9 @@ mainAccordion.accordionElements[3].addEventListener('click', (event) => {
         //Showing loading message.
         event.target.nextElementSibling.innerHTML = 'Loading...';
         const xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = () => {
+        xmlhttp.onreadystatechange = function () {
             //If request is OK
+            console.log(this.readyState, this.status);
             if (this.readyState == 4 && this.status == 200) {
                 event.target.nextElementSibling.innerHTML = this.responseText;
             } else {
