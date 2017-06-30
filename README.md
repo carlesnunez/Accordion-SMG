@@ -49,6 +49,7 @@ The id could be whatever you want but the handler and body clases must be as fol
  import AccordionSMG from './AccordionSMG';
  const mainAccordion = new AccordionSMG('Accordion-1');
  ```
+Note that Accordion-1 is our html ID
 
 ## AccordionSMG functions:
 
